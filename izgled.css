@@ -1,0 +1,603 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: white;
+    
+}
+ 
+.ak{
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.appa {
+    background-image: url(Untitled\ design\ \(2\).jpg);
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 312px;
+    
+}
+
+.appk {
+    background-image: url(Untitled\ design\ \(2\).jpg);
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 112px;
+    
+}
+
+.apps {
+    background-image: url(Untitled\ design\ \(2\).jpg);
+    width: 100%;
+    height: 765px;
+    max-width: 500px;
+    margin: auto;
+    padding: 10px;
+    
+    
+}
+
+.app {
+    background-image: url(Untitled\ design\ \(2\).jpg);
+    width: 100%;
+    height: 100%;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 120px;
+    
+}
+
+img{
+    width: 45px;
+    height: 40px;
+
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.a{
+    width: 110px;
+    height: 110px;
+}
+
+.small-text {
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 4px;
+}
+
+h1 {
+    font-size: 45px;
+    letter-spacing: 1px;
+}
+
+h1 span {
+    color: #ff4d00;
+}
+
+.profile {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #ff4d00;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+}
+
+
+/* WELCOME */
+
+.welcome {
+    margin-top: 35px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.welcome p {
+    color: #999;
+    font-size: 14px;
+}
+
+.welcome h2 {
+    margin-top: 5px;
+    font-size: 24px;
+}
+
+.fire {
+    font-size: 35px;
+}
+
+
+/* SEARCH */
+
+.search {
+    margin-top: 25px;
+
+    background: #151515;
+    border: 1px solid #252525;
+
+    border-radius: 14px;
+
+    height: 52px;
+
+    display: flex;
+    align-items: center;
+
+    padding: 0 15px;
+}
+
+.search span {
+    font-size: 20px;
+}
+
+.search input {
+    background: transparent;
+    border: none;
+    outline: none;
+
+    color: white;
+
+    width: 100%;
+
+    margin-left: 10px;
+
+    font-size: 14px;
+}
+
+.search input::placeholder {
+    color: #777;
+}
+
+
+/* QUICK BUTTONS */
+
+.quick-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+    margin-top: 20px;
+}
+
+.quick-buttons button {
+    background: #151515;
+    border: 1px solid #242424;
+
+    border-radius: 14px;
+
+    padding: 15px 5px;
+
+    color: white;
+
+    cursor: pointer;
+}
+
+.quick-buttons .icon {
+    font-size: 23px;
+    margin-bottom: 7px;
+}
+
+.quick-buttons span {
+    font-size: 11px;
+    
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* SECTIONS */
+
+.section {
+    margin-top: 25px;
+}
+
+.section-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.section-title h2 {
+    font-size: 18px;
+    
+}
+
+.see-all {
+    border: none;
+    background: transparent;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* MAP */
+
+.map {
+    height: 300px;
+
+    
+
+    border-radius: 20px;
+
+    position: relative;
+
+}
+
+.slika{
+  position: relative;
+  right: 50px;
+  top: 100px;
+  margin-top: -150px;
+  height: auto;
+ width: 120%;
+ 
+}
+
+
+/* MAP LABELS */
+
+.map-label {
+    position: absolute;
+
+    background: #202020;
+
+    border-radius: 20px;
+
+    padding: 7px 10px;
+
+    font-size: 9px;
+
+    color: #aaa;
+}
+
+.cardio {
+    top: 1px;
+    left: 1px;
+}
+
+.chest {
+    top: 15px;
+    right: 15px;
+}
+
+.legs {
+    bottom: 15px;
+    left: 15px;
+}
+
+
+/* MACHINES */
+
+.machine {
+    position: absolute;
+
+    width: 60px;
+    height: 25px;
+
+    background: #1b1b1b;
+
+    border: 1px solid #303030;
+
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 3px;
+}
+
+.machine span {
+    font-size: 22px;
+}
+
+.machine small {
+    color: #aaa;
+    font-size: 8px;
+}
+
+.machine-1 {
+    top: 50px;
+    left: 190px;
+}
+
+.machine-2 {
+    top: 110px;
+    left: 125px;
+}
+
+.machine-3 {
+    top: 110px;
+    right: 100px;
+}
+
+.machine-4 {
+    top: 230px;
+    right: 90px;
+}
+
+.machine-5 {
+    bottom: 32%;
+    left: 43%;
+}
+
+.machine-6 {
+    bottom: 155px;
+    left: 45px;
+}
+
+.machine-7 {
+    bottom: 50px;
+    left: 100px;
+    width: 80px;
+}
+
+.machine-8 {
+    bottom: 100px;
+    left: 100px;
+    width: 80px;
+}
+
+
+
+
+
+/* LOCATION */
+
+.location {
+    position: absolute;
+
+    left: 50%;
+    top: 52%;
+
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    gap: 7px;
+
+    background: #ff4d00;
+
+    padding: 7px 12px;
+
+    border-radius: 20px;
+
+    font-size: 10px;
+
+    font-weight: bold;
+}
+
+.location-dot {
+    width: 7px;
+    height: 7px;
+
+    background: white;
+
+    border-radius: 50%;
+}
+
+
+/* MACHINE CARDS */
+
+.machines {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.machine-card {
+    background: #151515;
+
+    border: 1px solid #252525;
+
+    border-radius: 18px;
+
+    padding: 12px;
+
+    display: flex;
+
+    gap: 14px;
+}
+
+.machine-image {
+    width: 105px;
+   
+    height: 100px;
+
+    background: #202020;
+
+    border-radius: 12px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 40px;
+}
+
+
+
+.machine-info {
+    padding-top: 3px;
+}
+
+.category {
+    font-size: 9px;
+    color: #ff4d00;
+    font-weight: bold;
+}
+
+.machine-info h3 {
+    margin-top: 6px;
+    font-size: 17px;
+}
+
+.machine-info p {
+    color: #777;
+    font-size: 11px;
+    margin-top: 6px;
+}
+
+.machine-button {
+    margin-top: 12px;
+
+    background: transparent;
+
+    border: none;
+
+    color: #ff4d00;
+
+    font-size: 11px;
+
+    cursor: pointer;
+}
+
+
+/* NFC CARD */
+
+.nfc-card {
+    margin-top: 30px;
+
+    padding: 20px;
+
+    border-radius: 20px;
+
+    background: #17110e;
+
+    border: 1px solid #3b2116;
+
+    position: relative;
+}
+
+.nfc-icon {
+    font-size: 30px;
+
+    margin-bottom: 12px;
+}
+
+.nfc-card span {
+    color: #ff4d00;
+
+    font-size: 10px;
+
+    font-weight: bold;
+}
+
+.nfc-card h2 {
+    margin-top: 10px;
+
+    font-size: 24px;
+}
+
+.nfc-card p {
+    
+
+    color: #999;
+
+    font-size: 15px;
+
+    line-height: 1.5;
+
+    margin-top: 10px;
+}
+
+.nfc-button {
+    margin-top: 15px;
+
+    background: #ff4d00;
+
+    border: none;
+
+    color: white;
+
+    padding: 10px 15px;
+
+    border-radius: 9px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* BOTTOM NAV */
+
+.bottom-nav {
+    position: fixed;
+
+    bottom: 15px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    width: calc(100% - 30px);
+    max-width: 470px;
+
+    background: #171717;
+
+    border: 1px solid #292929;
+
+    border-radius: 18px;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-around;
+
+    backdrop-filter: blur(10px);
+}
+
+.bottom-nav a {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 4px;
+
+    color: #777;
+
+    font-size: 9px;
+
+    cursor: pointer;
+}
+
+.bottom-nav a span {
+    font-size: 18px;
+}
+
+.bottom-nav a.active {
+    color: #ff4d00;
+}
+
